@@ -29,3 +29,16 @@ List of defaut OUs and their purpose:
 
 
 To disable accidental OU deleteion protection, go to view -> enable "Advanced Features" -> right click OU and go to properties and uncheck the protection box
+
+# Delegation: Giving control to a user over lower privledged user for support cases. EX: IT over Accounting. 
+  
+Powershell Reseting User Password: 
+  
+  Set-ADAccountPassword sophie -Reset -NewPassword (Read-Host -AsSecureString -Prompt 'New Password') -Verbose
+  
+# Segregating Devices/Machine into Categories: 
+  1. Workstations 
+  2. Servers 
+  3. Domain controllers 
+  
+  
