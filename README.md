@@ -1,6 +1,6 @@
-### Nmap Switches 
+# Nmap Switches 
 1. -sS (Syn Scan) # A partial completeion of a SYN/ACK/SYNACK handshake. AKA a half-open scan, just enough to see if a port is open. 
-# Sends a UDP packet that is empty (no payload) unless protocol specific. States include open, open | filtered, closed, filtered.
+### Sends a UDP packet that is empty (no payload) unless protocol specific. States include open, open | filtered, closed, filtered.
 2. -sU (UDP Scan) 
 3. -O (OS Scan) 
 4. -sV (Version of services running on the target) 
