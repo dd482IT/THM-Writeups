@@ -1,2 +1,16 @@
-# THM-Writeups
-This will be a repository featuring notes taken from THM rooms. 
+### Nmap Switches 
+1. -SS (Syn Scan) 
+2. -sU (UDP Scan) 
+3. -O (OS Scan) 
+4. -sV (Version of services running on the target) 
+5. -v (Verbosity I) 
+6. -vv (Verbosity II)
+7. -oA (Saves scan to three MAJOR formats)
+8. -oN (Saves results to a normal format) 
+9. -oG (Grepable format) 
+10. -A (Aggressive Mode) 
+11. -T5 (Timing Template, used to increase or decrease speed. Higher means noisier) 
+12. -p <port> (Single Port Scan) 
+13. -p <1000>-<1500> (Port Scan Range) 
+14. --script (runs default script) 
+15. --script=vuln
