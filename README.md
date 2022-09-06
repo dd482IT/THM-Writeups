@@ -1,5 +1,5 @@
 # Nmap Switches 
-### A partial completeion of a SYN/ACK/SYNACK handshake. AKA a half-open scan, just enough to see if a port is open.
+### A partial completeion of a SYN/ACK/SYNACK handshake. AKA a half-open scan, Stealth Scan, just enough to see if a port is open.
 1. -sS (Syn Scan)  
 ### Sends a UDP packet that is empty (no payload) unless protocol specific. States include open, open | filtered, closed, filtered.
 ### Open means there was a response (unusual), open | filtered means no response after retries, closed means ICMP port unreachable and filtered means 
@@ -23,3 +23,8 @@
   
 # Scan Types 
   
+  TCP Connect -sT 
+  TCP Null Scans -sN (Q: How is it useful?)
+  TCP FIN Scans -sF (Q:^)
+  TCP Xmas Scans -sX (Q: How is it useful?)
+  SYN Scans 
